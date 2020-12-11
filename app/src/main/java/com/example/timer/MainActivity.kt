@@ -39,6 +39,10 @@ class MainActivity : AppCompatActivity() {
         }, 0, 1000)
     }
 
+    override fun onResume() {
+        super.onResume()
+        videoView.start()
+    }
     fun GetNowTime(dateFormattedText:String,timeFormattedText:String){
         runOnUiThread {
             dateText.text = dateFormattedText

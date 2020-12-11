@@ -42,7 +42,7 @@
                 android:text="12:34:56"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
-                android:textSize="180sp" />
+                android:textSize="170sp" />
 
         </LinearLayout>
 
