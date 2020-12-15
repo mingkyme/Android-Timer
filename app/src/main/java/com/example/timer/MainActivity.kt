@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         dateText = findViewById(R.id.DateText) as TextView
         timerText = findViewById(R.id.TimeText) as TextView
         videoView = findViewById(R.id.videoView) as VideoView
-        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" +R.raw.test_video));
+        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" +R.raw.video));
         videoView.start();
         videoView.setOnCompletionListener { videoView.start() }
         Timer().scheduleAtFixedRate(object : TimerTask() {
