@@ -1,3 +1,3 @@
 # Android-Timer
 
-![screenshot](https://github.com/mingkyme/Android-Timer/blob/main/images/screenshot.png)
+![screenshot](https://github.com/mingkyme/Android-Timer/blob/master/images/screenshot.png)
